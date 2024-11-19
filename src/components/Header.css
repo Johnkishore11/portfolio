@@ -1,0 +1,55 @@
+/* src/components/Header.css */
+
+.hamburger {
+  display: flex;
+  flex-direction: column;
+  width: 24px;
+  height: 24px;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.hamburger.open .top-line {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+
+.hamburger.open .middle-line {
+  opacity: 0;
+}
+/* Align CLOSE text and icon */
+.absolute.top-5.right-5 {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem; /* Adjusts space between text and icon */
+}
+
+.absolute.top-5.right-5 p {
+  margin: 0;
+  line-height: 1; /* Ensures text doesn't have extra height */
+  transform: translateY(1px); /* Adjust the text's vertical position */
+}
+
+.absolute.top-5.right-5 span {
+  line-height: 1;
+  display: flex;
+  align-items: center; /* Ensures the icon is centered vertically */
+  transform: translateY(-1px); /* Adjust the icon's vertical position */
+}
+
+.hamburger.open .bottom-line {
+  transform: rotate(-45deg) translate(5px, -5px);
+}
+
+.line {
+  width: 100%;
+  height: 3px;
+  background-color: #333;
+  transition: all 0.3s ease;
+}
+
+/* Hover effect for menu links */
+ul li a:hover {
+  color: #ffffff;
+  transform: scale(1.1);
+  transition: color 0.2s ease-in, transform 0.2s ease-in;
+}
