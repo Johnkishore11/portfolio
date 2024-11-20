@@ -53,7 +53,7 @@ const Hero = () => (
 
         {/* Right Image */}
         <motion.img
-            className="md:w-2/3 lg:w-1/2 h-auto object-cover md:object-contain"
+            className="md:w-2/3 lg:w-1/2 h-auto object-cover lg:mt-8 md:object-contain sm:mt-32 pr-14"
             src={heroimg}
             alt="Kishore"
             initial={{ opacity: 0 }}
