@@ -1,12 +1,20 @@
 import { footer } from "framer-motion/client";
+import { Link } from "react-router-dom";
 import React, { useState } from "react";
 import './Footer.css';
 
 const Footer = () => {
+    const [isOpen, setIsOpen] = useState(false);
+
+    const toggleMenu = () => {
+      setIsOpen(!isOpen);
+    };
+
     return (
         <footer>
             <hr />
-            <a href="/contact"><h1 className="text-6xl font-bold p-20 text-center hover:underline">Work with me →</h1></a>
+            <a href="/contact"></a>
+            <Link to="/contact" onClick={toggleMenu}><h1 className="text-6xl font-bold p-20 text-center hover:underline">Work with me →</h1></Link>
             <hr className="border-gray-300" />
             <div className="flex justify-between p-20">
             <div>

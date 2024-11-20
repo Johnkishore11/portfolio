@@ -68,13 +68,3 @@ function App() {
 }
 
 export default App;
-
-{/* "Go to Top" Button */}
-// {isVisible && (
-//   <button
-//     onClick={scrollToTop}
-//     className="fixed bottom-5 right-5 p-2 bg-gray-600 text-white rounded-full shadow-lg hover:bg-blue-700 transition z-50"
-//   >
-//     ↑
-//   </button>
-// )}
