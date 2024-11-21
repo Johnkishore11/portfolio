@@ -51,7 +51,10 @@ const About = () => (
           Over 2 Years of Experience
         </h2>
         <h3 className="text-sm md:text-lg lg:text-xl font-bold text-gray-400">
-          I am a dedicated web developer with hands-on experience from a 1-month internship and several personal projects. I specialize in creating responsive and user-friendly applications. As a fresher, I am eager to learn, grow, and collaborate with dynamic teams, contributing to innovative solutions while continuously improving my skills in web development. For more details, head over to my LinkedIn profile.
+          I am a dedicated web developer with hands-on experience from a 1-month internship and several personal projects. I specialize in creating responsive and user-friendly applications. 
+          As a fresher, I am eager to learn, grow, and collaborate with dynamic teams, 
+          contributing to innovative solutions while continuously improving my skills in web development. 
+          For more details, head over to my <a className='hover:underline hover:text-black' href="https://www.linkedin.com/in/kishore-j11/">LinkedIn profile.</a> 
         </h3>
       </div>
     </div>
