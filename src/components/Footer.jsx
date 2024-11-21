@@ -14,7 +14,7 @@ const Footer = () => {
         <footer>
             <hr />
             <a href="/contact"></a>
-            <Link to="/contact" onClick={toggleMenu}><h1 className="text-6xl font-bold p-20 text-center hover:underline">Work with me →</h1></Link>
+            <Link to="/contact" onClick={toggleMenu}><h1 className="text-4xl md:text-5xl lg:text-6xl font-bold p-20 text-center hover:underline">Work with me →</h1></Link>
             <hr className="border-gray-300" />
             <div className="flex justify-between p-20">
             <div>

@@ -26,9 +26,9 @@ const About = () => (
       <div className="flex flex-wrap justify-around mt-16 mb-16 gap-12">
         <div className="text-left">
           <p className="text-lg font-semibold text-gray-500">SERVICES</p>
-          <h4 className="text-xl md:text-2xl font-semibold">UI & UX /</h4>
-          <h4 className="text-xl md:text-2xl font-semibold">Programming /</h4>
-          <h4 className="text-xl md:text-2xl font-semibold">Web Development /</h4>
+          <h4 className="text-xl md:text-2xl font-semibold">UI & UX</h4>
+          <h4 className="text-xl md:text-2xl font-semibold">Programming</h4>
+          <h4 className="text-xl md:text-2xl font-semibold">Web Development</h4>
           <h4 className="text-xl md:text-2xl font-semibold">Editing</h4>
         </div>
         <div className="text-left">

@@ -25,9 +25,7 @@ const Projects = () => {
           <div className="lg:w-1/2 bg-white p-6 shadow-lg">
             <h3 className="text-2xl font-semibold mb-4">1. MovieTunesHub - Music Application</h3>
             <p className="text-gray-600 mb-4">
-              Nexus Chat Application is a modern chat application built with the latest technologies,
-              including Next.js, TypeScript, Tailwind CSS, MongoDB, Prisma, and NextAuth. It features
-              real-time chatting, group creation, profile customization, and various authentication methods.
+            MoviesHub is an engaging movie website that allows users to explore movies, view detailed information, and stay updated with the latest releases. Powered by the TMDB API, it leverages Next.js, Vite, and Material UI to deliver a fast, responsive, and visually appealing experience
             </p>
             <div className="flex flex-wrap gap-2 mb-4">
               <span className="text-sm bg-gray-100 text-gray-600 px-2 py-1 rounded">HTML</span>
@@ -65,9 +63,7 @@ const Projects = () => {
           <div className="lg:w-1/2 bg-white p-6 shadow-lg">
             <h3 className="text-2xl font-semibold mb-4">2. BMI Calculator</h3>
             <p className="text-gray-600 mb-4">
-              Cinematica is a feature-rich MERN application that allows users to seamlessly track and manage
-              the movies and shows they watch or plan to watch. It includes full CRUD functionality and user
-              account management.
+            BMI Calculator is a simple web-based application designed to calculate a user's Body Mass Index (BMI) based on their height and weight. Built with HTML, CSS, and JavaScript, this project is a great example of an interactive frontend application.
             </p>
             <div className="flex flex-wrap gap-2 mb-4">
               <span className="text-sm bg-gray-100 text-gray-600 px-2 py-1 rounded">HTML</span>
@@ -105,8 +101,7 @@ const Projects = () => {
           <div className="lg:w-1/2 bg-white p-6 shadow-lg">
             <h3 className="text-2xl font-semibold mb-4">3. FarmShed | Grocery website</h3>
             <p className="text-gray-600 mb-4">
-              A portfolio website of a game developer built with Gatsby and Contentful CMS. It features modern
-              animations using Framer Motion and programmatically generated pages with an advanced SEO setup.
+            FarmShed is a modern grocery e-commerce website designed to make online grocery shopping simple and convenient. Built using ReactJS and styled with Tailwind CSS, this project demonstrates a clean and responsive user interface for seamless shopping.
             </p>
             <div className="flex flex-wrap gap-2 mb-4">
               <span className="text-sm bg-gray-100 text-gray-600 px-2 py-1 rounded">React.js</span>
